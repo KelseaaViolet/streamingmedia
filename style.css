@@ -1,0 +1,145 @@
+
+html {
+  background-color: #020659 ;
+}
+
+body {
+  margin: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+
+h1 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+h2, h3 {
+  font-size: 1em;
+  color: #590242;
+}
+
+p {
+  font-size: 1em;
+}
+
+footer p {
+  font-size: .75em;
+}
+
+.about {
+  color: #fff;
+}
+
+/* Head & Nav CSS*/
+
+ul {
+  list-style: none;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #590242;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+header {
+  padding: 1rem;
+  
+  height: 80px;
+  background-color: #2104d9;
+}
+
+header h1 {
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 16px;
+}
+
+.trending_songs {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+
+
+
+  
+
+}
+
+
+.trending_songs img {
+  padding: 16px;
+}
+
+
+button {
+  width: 10rem;
+  height: 2rem;
+  background-color: #590242;
+  color: #fff;
+
+  font-size: 0.8rem;
+}
+
+
+.yourplaylists {
+  margin-top: 20px;
+  background-color: #2699fb;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+  padding-top: 20px;
+}
+
+.curatedplaylists {
+  margin-top: 20px;
+  background-color: #2104d9;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+  padding-top: 20px;
+}
+
+.curatedplaylists h3 p{
+  color:#fff;
+}
+
+.curatedplaylists img {
+  padding: 16px;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  color: #590242;
+  height: 80px;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    font-size: 1rem;
+    color: pink;
+  }
+}
